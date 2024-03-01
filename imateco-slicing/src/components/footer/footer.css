@@ -1,0 +1,34 @@
+footer {
+	border-top: 1px solid #EAEAEA;
+}
+
+footer .logo-brand {
+	width: 145px;
+}
+
+footer .footer-list {
+	padding-inline-start: 0px;
+}
+
+footer .footer-list a {
+		text-decoration: none;
+		color: #333;
+		transition: all 0.3s ease-in-out;
+}
+
+footer .footer-list a:hover {
+	color: #37A11A
+}
+
+footer .colord-text {
+	color: #37A11A;
+}
+
+footer .social-icon {
+	color: #333333;
+	transition: all 0.3s ease-in-out;
+}
+
+footer .social-icon:hover {
+	color: #37A11A;
+}

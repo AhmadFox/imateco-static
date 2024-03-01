@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+	header {
+	  height: 70vh;
+	}
+	header .text-wraper {
+		width: 75% !important;
+	}
+}
