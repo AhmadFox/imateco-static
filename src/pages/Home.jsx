@@ -25,6 +25,13 @@ const Home = () => {
 			{/* Beginning PAge Body */}
 			<main className='mb-auto'>
 
+				<div className="">
+					<a href="https://www.namaventures.com" target='_blank'>
+						<img src="./nama_banner.svg" alt="Nama Ventures Banner Desktop" className='w-100 h-auto object-fit-cover header-background d-none d-sm-block' />
+						<img src="./nama_square_banner.svg" alt="Nama Ventures Banner Mobile" className='w-100 h-aut header-background d-block d-sm-none' />
+					</a>
+				</div>
+
 				<header className='position-relative d-flex align-items-center justify-content-center'>
 					<img src="./home_banner.png" alt="header home banner" className="w-100 h-100 object-fit-cover header-background" />
 					<div className="d-flex flex-column justify-content-center align-items-center mx-auto w-50 postion-absolute header-message position-absolute text-wraper">
