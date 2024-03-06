@@ -22,6 +22,14 @@ function Header() {
 				<Navbar.Brand href="#">
 					<img src="./imatco_logo.png" alt="Imatco Logo Brand" srcSet="" className='logo-brand' />
 				</Navbar.Brand>
+
+				<Nav className="justify-content-center align-items-center mt-2 gap-2 gap-xl-4 flex-grow-1 text-uppercase fw-medium menu-resonsive">
+					<Nav.Link href="#action1">{t('technical profiles')}</Nav.Link>
+					<Nav.Link href="#action2">{t('blog')}</Nav.Link>
+					<Nav.Link href="#action2">{t('about us')}</Nav.Link>
+					<Nav.Link href="#action2">{t('our sponsers')}</Nav.Link>
+					<Nav.Link href="#action2">{t('faq')}</Nav.Link>
+				</Nav>
 					
 				<Navbar.Offcanvas
 					id={`offcanvasNavbar-expand-lg`}

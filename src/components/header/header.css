@@ -26,3 +26,9 @@ nav .navbar-toggler {
 .switch-lang label img {
 	width: 30px;
 }
+
+@media only screen and (max-width: 991.99px ){
+	.menu-resonsive {
+		display: none !important;
+	}
+}

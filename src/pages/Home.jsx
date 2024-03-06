@@ -49,7 +49,7 @@ const Home = () => {
 										<Card.Title>
 											<img src='./icons/search.svg' alt="icons search" className='mb-3'/>
 										</Card.Title>
-										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3">{t('searches')}</Card.Subtitle>
+										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3 text-capitalize">{t('searches')}</Card.Subtitle>
 										<Card.Text className='fs-3 text-heilight fw-bold'>42588</Card.Text>
 									</Card.Body>
 								</Card>
@@ -60,7 +60,7 @@ const Home = () => {
 										<Card.Title>
 											<img src='./icons/users.svg' alt="icons users" className='mb-3'/>
 										</Card.Title>
-										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3">{t('users')}</Card.Subtitle>
+										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3 text-capitalize">{t('users')}</Card.Subtitle>
 										<Card.Text className='fs-3 text-heilight fw-bold'>3</Card.Text>
 									</Card.Body>
 								</Card>
@@ -71,7 +71,7 @@ const Home = () => {
 										<Card.Title>
 											<img src='./icons/messages.svg' alt="icons messages" className='mb-3'/>
 										</Card.Title>
-										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3">{t('messages')}</Card.Subtitle>
+										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3 text-capitalize">{t('messages')}</Card.Subtitle>
 										<Card.Text className='fs-3 text-heilight fw-bold'>2980</Card.Text>
 									</Card.Body>
 								</Card>
@@ -82,7 +82,7 @@ const Home = () => {
 										<Card.Title>
 											<img src='./icons/visitors.svg' alt="icons visitors" className='mb-3'/>
 										</Card.Title>
-										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3">{t('File visits')}</Card.Subtitle>
+										<Card.Subtitle className="fs-5 mb-2 fw-medium text-muted mb-3 text-capitalize">{t('File visits')}</Card.Subtitle>
 										<Card.Text className='fs-2 text-heilight fw-bold'>31309</Card.Text>
 									</Card.Body>
 								</Card>
